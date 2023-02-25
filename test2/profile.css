@@ -1,0 +1,102 @@
+body {
+    font-family: "Avenir Next";
+    background-image: url(b105.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    background-color: silver;
+    color: blueviolet;
+    height: 90px;
+    /* position: relative;
+    z-index: 1; */
+  }
+
+  .header-logo {
+    float: right;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .main h1 {
+    padding: 30px 50px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    border-bottom: 2px solid #dee7ec;
+  }
+
+  .main-contents h2 {
+  padding: 30px 50px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    border-bottom: 2px solid #dee7ec;
+  }
+  
+  .main p {
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-style: italic;
+  }
+
+  .main-contents p {
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    line-height: 15px; 
+}
+ 
+.main-contents h3 {
+    margin-top: 10px;
+ font-size: 30px;
+ color: orange;
+ font-family:'Times New Roman', Times, serif;
+ font-weight: bold;
+ text-align: center;
+ font-style: italic;
+}
+
+.contents-item {
+    float: left;
+    padding: 10px;
+    margin: 60px;
+ }
+  
+  .contents-item p{
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+  

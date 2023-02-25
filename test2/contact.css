@@ -1,0 +1,90 @@
+body {
+    font-family: "Avenir Next";
+    background-image: url(b105.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    background-color: silver;
+    color: blueviolet;
+    height: 90px;
+    /* position: relative;
+    z-index: 1; */
+  }
+
+  .header-logo {
+    float: right;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+    
+  .contact-form {
+    text-align: center;
+  }
+    
+  .section-title {
+    color: white;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 30px 50px;
+  }
+  
+  .contact-form h4{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align :center;
+  }
+  
+  .contact-form p{
+    color: white;
+    font-size 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align :center;
+  }
+  
+  input,textarea {
+    width: 400px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+    width: 400px;
+    height: 70px;
+    text-align :center;
+    padding-top: 10px;
+  }
+  
+  .contact-submit:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  

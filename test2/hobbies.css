@@ -1,0 +1,70 @@
+body {
+    font-family: "Avenir Next";
+    background-image: url(b105.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .header {
+    background-color: silver;
+    color: blueviolet;
+    height: 90px;
+    /* position: relative;
+    z-index: 1; */
+  }
+
+  .header-logo {
+    float: right;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .header-list li {
+    float: left;
+    padding: 33px 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .main h1 {
+    padding: 30px 50px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    border-bottom: 2px solid #dee7ec;
+  }
+
+  .main h2 {
+    padding: 30px 50px;
+    color: orange;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .main p {
+    padding-top: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .photo {
+    padding 20px;
+    margin-bottom: 40px;
+  }
+  
